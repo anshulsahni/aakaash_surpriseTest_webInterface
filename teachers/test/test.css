@@ -1,0 +1,37 @@
+*{padding:0px; margin:0px;}
+#wrapper
+{
+	position: relative;
+	width:1100px;	min-height:550px;
+	margin:0px auto;
+}
+#container
+{
+	position: relative;
+	width: 100%; height: auto;
+	margin:0px auto;  
+	padding-bottom:150px;
+}
+#option_container
+{
+	position: relative;
+	width:500px; height: 100px;
+	margin:0px auto;
+	top:50px;
+
+}
+#option_container ul{list-style-type: none;}
+#option_container ul li{list-style-type:none;}
+
+#action_container
+{
+	position: relative;
+	width:100%; height:auto;
+	top:150px;
+	background-color: #dbdbdb;
+	padding: 20px 20px;
+}
+#action_container input[type="submit"]{position: relative; margin: 0px auto; width: 220px;}
+input[type="button"]{width:220px;}
+.btn{border:1px solid #000; background-color:#590A1D; height: 25px;	width: 100px; border-radius:7px;  font-size:16px; color:#fff;}
+.btn:focus{outline: none; cursor:pointer;}

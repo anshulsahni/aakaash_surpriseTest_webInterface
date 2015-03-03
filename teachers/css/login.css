@@ -1,0 +1,38 @@
+*{padding: 0px; margin:0px;}
+#wrapper
+{
+	position: relative; 
+	width:1100px; min-height: 500px;
+	border:1px solid #000; border-radius: 0px 0px 10px 10px;
+	box-shadow: 0px 0px 10px #000;
+	overflow: hidden;
+	margin:0px auto;
+
+
+}
+#login_container
+{
+	position: relative;
+	margin:0px auto;
+	height: 300px;	width:300px;
+	background-color: #aaa;
+	border: 1px solid #000;
+	border-radius: 20px;
+	top:100px;
+}
+#container
+{
+	position: relative;
+	height: 550px;
+	margin: 0px auto;
+}
+.form
+{
+	position: relative;
+}
+.form table{position: relative; top:100px; margin:0px auto;}
+.form table tr{height:40px;}
+.txtbox{height: 30px; width: 250px;} 
+.btn_wrapper{margin:0px auto; position: relative; display: table; top:120px;}
+.btn{border:1px solid #000; background-color:#590A1D; height: 25px;	width: 100px; border-radius:7px;  font-size:16px; color:#fff;}
+.btn:focus{outline: none; cursor:pointer;}
